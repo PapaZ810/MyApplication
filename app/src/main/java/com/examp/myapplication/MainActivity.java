@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity
         final ConstraintLayout layout = findViewById(R.id.layout);
 
         Button button = findViewById(R.id.change);
+
         button.setOnClickListener(new View.OnClickListener()
         {
             @Override
